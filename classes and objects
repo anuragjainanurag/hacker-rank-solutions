@@ -1,0 +1,25 @@
+
+
+class Student
+{
+  private:
+    int a[5],total=0,i;
+   
+   public:
+    void input()
+    {
+        for(i=0; i<5; i++)
+        {
+            cin>>a[i];
+        }
+    }
+    int calculateTotalScore()
+    {
+         for(i=0; i<5; i++)
+        {
+            total+=a[i];
+        }
+        return total;
+    }
+};
+
